@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <!--Iconos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/code-square.svg" type="image/x-icon">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Archivo css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Itzel Salgado Venegas</title>
+  </head>
+  <body>
+    
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+            <i class="bi bi-code-square p-3"></i>
+            <span class="fs-4">Itzel Salgado Venegas</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item boton-perfil"><a id="boton-perfil" href="#" class="nav-link active perfil" aria-current="page">Sobre mi</a></li>
+            <li class="nav-item"><a href="#hanging-icons" class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </header>
+
+        <main>
+            <!--Hero-->
+            <div class="hero">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 rounded-circle" src="assets/itz.jpeg" alt="" width="200">
+                <h1 class="display-5 fw-bold text-body-emphasis">Itzel Salgado Venegas</h1>
+                <h2 id="app"></h2>
+                <div class="col-lg-6 mx-auto">
+                  <p class="lead mb-4">Técnico en Ing. en Sistemas Computacionales, con experiencia en el área de administración de sistemas e
+                    implementación de estos. Cuento con conocimiento en WordPress, Paquetería Office, Paquetería Adobe.</p>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">Ir a mi CV</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <!--Habilidades-->
+            <div class="caja-habilidades">
+            <div class="habilidades container px-4 py-5" id="hanging-icons">
+                <h2 class="pb-2 border-bottom">Habilidades</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                        <i class="bi bi-laptop px-1"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-2">Desarrollo Frontend</h3>
+                      <p>He creado sitios web responsivos aplicando los conocimientos obtenidos en el bootcamp de Tecnolochicas PRO.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                        <i class="bi bi-camera-video px-1"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-2">CCTV</h3>
+                      <p>Instalación, mantenimiento y monitoreo de sistemas CCTV para garantizar la seguridad de propiedades y personas, con soluciones personalizadas y soporte técnico continuo.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                        <i class="bi bi-envelope-at px-1"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-2">Email Marketing</h3>
+                      <p>
+                        Diseño, ejecución y análisis de campañas de email marketing para promover productos, servicios o contenidos, con el objetivo de aumentar la conversión y fidelizar clientes.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!--Proyectos-->
+              <div id="proyectos" class="proyectos container mt-5">
+                <h2 class="pb-2 border-bottom">Proyectos</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                  <div class="col">
+                    <div class="card shadow-sm">
+                        <!--Imagen-->
+                    <img class="bd-placeholder-img card-img-top" src="assets/clon-Pinterest.png" alt="">
+                    <div class="card-body"> 
+                    <p class="card-text">Clon de Pinterest</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://pinterest-clon-amber.vercel.app/">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/Salgadoit/pinterest-clon">Github</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  
+                  <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="assets/primerapag.png" alt="">
+                      <div class="card-body">
+                        <p class="card-text">Mi primer sitio</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://mi-primer-sitio-lu2dsfojq-itzel-salgados-projects.vercel.app/">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/Salgadoit/mi-primer-sitio">Github</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top" src="assets/clon-Pinterest.png" alt="">
+                      <div class="card-body">
+                        <p class="card-text">Mi primera app</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://pinterest-clon-amber.vercel.app/">Ver</a></button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/Salgadoit/pinterest-clon">Github</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Testimonios Carrousel-->
+              <div id="testimonios" class="testimonios container mt-5">
+                <h2 class="pb-2 border-bottom">Testimonios</h2>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+
+                        <div class="d-flex justify-content-center">
+                         <div class="card border-0" style="width: 18rem;">
+                            <img src="assets/AnelMontes.jpg" class="card-img-top rounded-circle" alt="...">
+                            <h5 class="card-title text-center">Anel Montes de Oca</h5>
+                            <h6 class="card-subtitle text-center text-body-secondary">Mentora en Tecnolochicas Pro</h6>
+                            <div class="card-body">
+                              <p class="card-text text-center">Itzel Salgado muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                        <div class="card border-0" style="width: 18rem;">
+                            <img src="assets/UserpicH.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-center">Carlos Rodríguez</h5>
+                            <h6 class="card-subtitle text-center text-body-secondary">Gerente de TI</h6>
+                            <div class="card-body">
+                              <p class="card-text text-center">Trabajar con Itzel Salgado ha sido excelente. Su dominio de sistemas y WordPress fue clave en la implementación de nuestro proyecto, y su habilidad con las herramientas de Adobe mejoró significativamente nuestros materiales visuales. Es un profesional altamente recomendado.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                        <div class="card border-0" style="width: 18rem;">
+                            <img src="assets/UserpicM.jpg" class="card-img-top" alt="...">
+                            <h5 class="card-title text-center">Laura Martínez</h5>
+                            <h6 class="card-subtitle text-center text-body-secondary">Directora de Marketing Digital</h6>
+                            <div class="card-body">
+                              <p class="card-text text-center">Colaborar con Itzel fue muy positivo. Su experiencia en administración de sistemas y su habilidad con WordPress y Adobe fueron esenciales para el éxito de nuestros proyectos. Siempre comprometido y eficiente.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+
+              <!--Contacto-->
+              <div id="contacto" class="px-4 py-5 my-5 text-center">
+                <i class="d-block mx-auto mb-4 fs-1 bi-envelope-at"></i>
+                <h1 class="display-5 fw-bold">Contáctame</h1>
+                <div class="col-lg-6 mx-auto">
+                  <p class="lead mb-4">Contáctame para iniciar un desarrollo web.</p>
+                  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="mailto:salgado.24k@gmail.com">
+                        <button type="button" class="btn btn-light btn-lg px-4 gap-3">Escríbeme</button>
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+
+        </main>
+
+        <!--Footer-->
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="www.linkedin.com/in/itzel-salgado-venegas-590792216" class="nav-link px-2"><i class="bi bi-linkedin"></i></a></li>
+              <li class="nav-item"><a href="https://github.com/Salgadoit" class="nav-link px-2"><i class="bi bi-github"></i></a></li>
+              <li class="nav-item"><a href="https://www.instagram.com/itzeel_salgado/" class="nav-link px-2"><i class="bi bi-instagram"></i></a></li>
+              <li class="nav-item"><a href="https://wa.link/eivuat" class="nav-link px-2"><i class="bi bi-whatsapp"></i></a></li>
+            </ul>
+            <p class="text-center text-body-secondary">Creado por Itzel Salgado Venegas en el bootcamp de <a href="https://tecnolochicas.mx/">TecnolochicasPro</a></p>
+          </footer>
+
+        
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--CDN Typewriter-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!--js-->
+    <script src="main.js"></script>
+
+  </body>
+</html>
